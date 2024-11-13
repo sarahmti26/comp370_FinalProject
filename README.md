@@ -1,2 +1,2 @@
 # comp370_FinalProject
-Final Project topic: Francois Legault in the media 
+Final Project topic: Kamala Harris in North American media 
