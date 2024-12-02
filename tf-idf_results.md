@@ -1,4 +1,4 @@
-Top 10 words for category 'Kamala as a person':
+Top 10 words for category 'Kamala outside of her Campaign':
 harris: 1.9860
 president: 1.7133
 vice: 1.2768
@@ -50,7 +50,7 @@ vice: 1.5207
 stances: 1.2758
 
 
-Top 10 words for category 'Mentions of Kamala through other candidates':
+Top 10 words for category 'Mentions of Kamala through other Political Figures':
 trump: 3.7148
 president: 3.2503
 harris: 2.1515
@@ -76,7 +76,7 @@ election: 6.2161
 donald: 6.0365
 
 
-Top 10 words for category 'General Facts about presidential elections':
+Top 10 words for category 'General Facts about Presidential Elections':
 electoral: 0.9726
 college: 0.8662
 rural: 0.7276
