@@ -6,7 +6,7 @@ file_path = "/Users/ilanamartin/Documents/fall 2024/comp 370/project/comp370_Fin
 data = pd.read_csv(file_path, delimiter=";")
 
 # Strip trailing spaces from all string columns
-data = data.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+data = data.apply(lambda x: x.str.strip() if x.dtype == "object" else x)
 
 # Calculate overall sentiment percentages
 sentiment_counts = data['Sentiment'].value_counts(normalize=True) * 100
@@ -15,7 +15,7 @@ sentiment_counts = data['Sentiment'].value_counts(normalize=True) * 100
 plt.figure(figsize=(6, 6))
 plt.pie(
     sentiment_counts,
-    labels=sentiment_counts.index,
+    labels=sentiment_counts.index.tolist(),
     autopct='%1.1f%%',
     startangle=90
 )
